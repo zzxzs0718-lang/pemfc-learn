@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="《质子交换膜燃料电池水热管理》（焦魁 等）八章精读：机制、公式、可交互仿真，边读边学。">
+<title>PEMFC 水热管理 · 边读边学</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress-line" id="scrollLine"></div>
+
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="打开目录">☰</button>
+  <a class="brand" href="#/home">
+    <span class="brand-mark">H₂</span>
+    <span class="brand-text">PEMFC 水热管理<small>焦魁 等 · 边读边学</small></span>
+  </a>
+  <div class="topbar-right">
+    <div class="overall" title="全书阅读进度">
+      <svg viewBox="0 0 36 36" class="ring" aria-hidden="true">
+        <circle cx="18" cy="18" r="15.5" class="ring-bg"></circle>
+        <circle cx="18" cy="18" r="15.5" class="ring-fg" id="ringFg"></circle>
+      </svg>
+      <span id="overallPct">0%</span>
+    </div>
+    <button class="icon-btn" id="themeBtn" aria-label="切换深浅色" title="切换深浅色">◐</button>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="main" id="view" tabindex="-1"></main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>内容依据《质子交换膜燃料电池水热管理》（焦魁 等）整理。正文中的 p.N 是<b>这份 PDF 的页序号</b>（书内印刷页码 = PDF 页码 − 20）。</div>
+    <div>本页离线可用 · 进度保存在本机浏览器</div>
+  </div>
+</footer>
+
+<!-- 内容模块 -->
+<script src="js/content/ch1.js"></script>
+<script src="js/content/ch2.js"></script>
+<script src="js/content/ch3.js"></script>
+<script src="js/content/ch4.js"></script>
+<script src="js/content/ch5.js"></script>
+<script src="js/content/ch6.js"></script>
+<script src="js/content/ch7.js"></script>
+<script src="js/content/ch8.js"></script>
+<!-- 交互演示 -->
+<script src="js/demos/polarization.js"></script>
+<script src="js/demos/nernst.js"></script>
+<script src="js/demos/waterflux.js"></script>
+<script src="js/demos/eis.js"></script>
+<script src="js/demos/flowfield.js"></script>
+<script src="js/demos/coldstart.js"></script>
+<script src="js/demos/stack.js"></script>
+<script src="js/demos/energyflow.js"></script>
+<!-- 应用 -->
+<script src="js/app.js"></script>
+</body>
+</html>
